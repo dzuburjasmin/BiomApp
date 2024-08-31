@@ -1,0 +1,40 @@
+.secondSection{
+    background:  url('/assets/images/2sec2.png') no-repeat padding-box;
+    height: 100vh       ;
+      background-position: center;
+      background-position: top;
+
+}
+.main-text{
+    font-family: ChronicleDisplay;
+    font-size: 2.5rem;
+    color: #002D33;
+}
+.sub-text{
+    font-family: BrandonGrotesqueRegular;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    font-size: 1.2rem;
+    color: #002D33;
+}
+.header-text{
+    color: #002D33;
+    font-family: BrandonGrotesqueRegular;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    letter-spacing: 2.1px;
+}
+.text-for-size{
+    width: 90%
+}
+p{
+    margin: 0;
+    color: #002D33;
+}
+.get-started-button{
+    background-color: #004A4C;
+    font-family: BrandonGrotesque;
+    font-size: 0.8rem;
+    letter-spacing: 1.95px;
+    color: white;
+}

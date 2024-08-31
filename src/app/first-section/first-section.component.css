@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'ChronicleDisplay';
+    src: url('/assets/fonts/ChronicleDisplayBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BrandonGrotesqueRegular';
+    src: url('/assets/fonts/BrandonGrotesqueRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BrandonGrotesque';
+    src: url('/assets/fonts/brandongrotesque-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BrandonGrotesqueBlack';
+    src: url('/assets/fonts/brandonBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} 
+.firstSection{
+    background:  url('/assets/images/Kitchen_3.png') no-repeat padding-box;
+    height: 100vh;
+      background-position: center;
+      background-position: top;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+}
+.main-text{
+    font-family: ChronicleDisplay;
+    font-size: 3.5rem;
+}
+.sub-text{
+    font-family: BrandonGrotesqueRegular;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    font-size: 1.2rem;
+    color: #FFFAFA;
+}
+@media (min-width: 550.98px) {
+    .sub-text{
+        width: 400px;
+    }
+}
+.content {
+    transform: translate(0px, -50px);
+}
+.get-started-button{
+    color: #004A4C;
+    font-family: BrandonGrotesque;
+    font-size: 0.8rem;
+    letter-spacing: 1.95px;
+}
+@media (min-width: 992px) {
+    .firstSection{
+        background-size: contain;
+    }
+}
