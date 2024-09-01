@@ -1,0 +1,135 @@
+
+
+.text-section p {
+    font-size: 2.25rem;
+    margin-bottom: 10px;
+    font-family: ChronicleDisplay;
+}
+
+.box-with-arrow {
+    display: flex;
+    align-items: center;
+    border: 2px solid #002D33;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    font-family: BrandonGrotesque;
+    font-size: 0.9rem;
+    width: max-content;
+}
+.box-with-arrow span {
+    padding-right: 10px;  /* Spacing between text and border */
+    margin-right: 10px;
+    border-right: 2px solid #000; /* Right border for the text */
+}
+.arrow-right {
+    font-size: 1.5rem;
+}
+
+.right-part {
+    position: relative;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-item {
+    position: relative;
+    width: 100%; 
+}
+
+.image-item img {
+    width: 100%;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.image-item:hover img{
+    transform: translateX(27%);
+}
+.image-item:hover .image-overlay{
+opacity: 1;
+}
+
+
+.image-overlay {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    color: #000000;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+
+}
+
+.image-overlay h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-family: ChronicleDisplay;
+}
+
+.image-overlay p {
+    margin: 5px 0 0;
+    font-size: 0.8rem;
+    font-family: BrandonGrotesque;
+    letter-spacing: 2px;
+
+}
+
+.image-item:hover .image-overlay {
+    left: 0;
+}
+
+.big-section {
+    background-color: #F2F2F2;  
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 0;
+    /* position: absolute; */
+}
+
+.header-footer {
+    font-size: 1rem;
+ font-family: BrandonGrotesqueRegular;
+ color: #002D33;
+}
+
+.big-text {
+    font-size: 1.4rem;
+    letter-spacing: 0px;
+    font-family: ChronicleDisplay;
+    color: #002D33;
+    margin: auto;
+    max-width: 90%;
+
+}
+@media (min-width: 992px) {
+    .big-text{
+        max-width: 50%;
+    }
+}
+.big-footer {
+    font-size: 1rem;
+}
+
+.pagination-circles {
+    color: #002D33;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.circle {
+    color: #002D33;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #002D33;
+    background-color: transparent;
+}
+
+.circle.active {
+    background-color: #002D33;
+    border-color: #002D33;
+}

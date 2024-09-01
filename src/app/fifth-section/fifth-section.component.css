@@ -1,0 +1,75 @@
+.main-container{
+    position: relative;
+}
+.main-part{
+    background-color: #DAE5E5;
+}
+
+.text-content-container{
+    max-width: 70%;
+    margin: auto;
+}
+
+.header-text{
+    font-family: BrandonGrotesqueRegular;
+    font-size: 1rem;
+}
+.sub-text{
+    font-family: BrandonGrotesqueRegular;
+}
+.main-text{
+    font-family: ChronicleDisplay;
+}
+.bullets p{
+    color:#000000;
+}
+.adobe{
+    position: absolute;
+    top: -13%;
+    z-index: 3;
+    left: 10%;
+}
+.fill{
+    position: absolute;
+    z-index: 4;
+    top:47%;
+    left: 65%
+}
+@media (max-width:1250px){
+    .adobe{
+        left:-20%;
+
+    }
+    .fill{
+left:40%
+    }
+}
+@media (max-width:1020px){
+    .adobe{
+        left:-40%;
+
+    }
+    .fill{
+left:20%
+    }
+}
+@media (max-width:992px){
+    .adobe{
+opacity: 0;
+    }
+    .fill{
+opacity: 0;
+    }
+}
+.get-started-button{
+    background-color: #004A4C;
+    font-family: BrandonGrotesque;
+    font-size: 0.8rem;
+    letter-spacing: 1.95px;
+    color: white;
+    position: absolute;
+    top:92%;
+    z-index: 5;
+    left:46%;
+    border-radius: 10px;
+}

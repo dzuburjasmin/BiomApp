@@ -98,6 +98,7 @@
             ],
             "styles": [
               "src/styles.css",
+              "node_modules/swiper/swiper-bundle.min.css",
               "node_modules/bootstrap/scss/bootstrap.scss"
             ],
             "scripts": [

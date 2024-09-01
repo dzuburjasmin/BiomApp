@@ -1,0 +1,18 @@
+<section class="carousel-section px-5 py-2 mt-4">
+    <h2 class="section-heading mt-4 mb-5">#cleanwithbiom</h2>
+    <div class="swiper-container">
+    <swiper [config]="swiperConfig" class="my-swiper">
+        <ng-template swiperSlide *ngFor="let image of images; let i = index">
+            <div class="swiper-slide" [ngClass]="{'higher': (i + 1) % 2 === 0}">
+                <img [src]="image.url" alt="Image {{i + 1}}" class="carousel-image">
+            </div>
+        </ng-template>
+    </swiper>
+</div>
+    <div class="d-flex justify-content-center">
+            <div class="box-with-arrow py-2 pl-3 mt-5 d-flex">
+                <span class="pr-2 mr-2">FOLLOW US ON INSTAGRAM</span>
+                <i class="fab fa-instagram mr-2"></i>
+            </div>
+        </div>
+</section>

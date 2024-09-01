@@ -1,3 +1,14 @@
-<section class="container-fluid">
-  
+<section class="container-fluid mt-5 thirdSection">
+  <div class="overlay-header">
+    <p class="small-text">WHERE YOU NEED IT,</p>
+    <h3 class="big-text">when you need it.</h3>
+  </div>
+    <swiper [config]="swiperConfig" class="mySwiper">
+        <ng-template swiperSlide *ngFor="let image of images">
+         <div class="image-container">
+          <img [src]="image.url" alt="Swiper image" class="swiper-image"/>
+          <div class="image-text">{{ image.text }}</div>
+        </div> 
+        </ng-template>
+      </swiper>
 </section>

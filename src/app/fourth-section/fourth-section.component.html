@@ -1,0 +1,42 @@
+<section class="container-fluid mt-5 fourthSection">
+    <div class="row">
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <div class="text-section">
+                <p>Ready to start wiping out waste?</p>
+                <div class="box-with-arrow py-2 pl-3">
+                    <span>CHOOSE YOUR VESSEL COLOR</span>
+                    <i class="arrow-right pr-2">&#8594;</i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 right-part">
+            <div class="image-container">
+                    <div class="image-item" *ngFor="let image of images">
+                        <img [src]="image.url" [alt]="image.text">
+                        <div class="image-overlay">
+                            <h2>Biom Dispenser</h2>
+                            <p>{{image.text}}</p>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row big-section pt-5 container-fluid">
+        <div class="col-12 gray-content pt-lg-4">
+            <h2 class="header-footer ">WHAT PEOPLE ARE SAYING</h2>
+            <p class="big-text mt-4">
+                “Cleaning and sanitizing are now more important than ever and these wipes make it so easy. 
+                They're great because they don't dry my skin out and I love knowing that buying their products are better for the environment.”
+            </p>
+            <footer class="header-footer mt-4">- RACHAEL H.</footer>
+            <div class="pagination-circles mt-5">
+                <span class="circle active"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+        </div>
+    </div>
+</section>
