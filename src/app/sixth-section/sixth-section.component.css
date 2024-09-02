@@ -9,6 +9,7 @@
     align-items: center;
     text-align: center;
     position: relative;
+    margin-top: 50px;
 }
 @media (min-width: 992px){
     .fullwidth-bg-section{
@@ -16,8 +17,9 @@
     }
 }
 .content-wrapper {
-    max-width: 800px; 
+    max-width: 80%; 
     color: white; 
+    margin: auto;
 }
 
 .small-heading {
@@ -36,7 +38,7 @@
     font-size: 1.1rem;
     margin-bottom: 30px;
     font-family: BrandonGrotesqueRegular;
-    width: 600px;
+    max-width: 70%;
     margin: auto;
 }
 

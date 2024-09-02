@@ -58,7 +58,7 @@
     letter-spacing: 1.95px;
 }
 @media (min-width: 992px) {
-    .firstSection{
+    /* .firstSection{
         background-size: contain;
-    }
+    } */
 }

@@ -60,6 +60,10 @@ opacity: 0;
     .fill{
 opacity: 0;
     }
+    .get-started-button{
+        top:90% !important;
+
+    }
 }
 .get-started-button{
     background-color: #004A4C;
