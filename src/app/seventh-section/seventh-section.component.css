@@ -14,11 +14,15 @@
     font-family: BrandonGrotesque;
     font-size: 0.8rem;
     width: max-content;
+    color: #002D33;
 }
 .box-with-arrow span {
-    border-right: 2px solid #000; 
+    border-right: 2px solid #002D33; 
 }
-
+.box-with-arrow:hover{
+    background-color: #002D33;
+    color: white;
+}
 
 
 .carousel-section {

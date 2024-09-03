@@ -23,24 +23,26 @@
     font-style: normal;
 } 
 .firstSection{
-    background:  url('/assets/images/Kitchen_3.png') no-repeat padding-box;
+    background-image: url('/assets/images/Kitchen_3.png');
+    background-repeat: no-repeat;
+    background-clip: padding-box;
     height: 100vh;
       background-position: center;
       background-position: top;
       width: 100%;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: center;
 }
 .main-text{
     font-family: ChronicleDisplay;
-    font-size: 3.5rem;
+    font-size: 55px;
 }
 .sub-text{
     font-family: BrandonGrotesqueRegular;
     font-weight: lighter;
     letter-spacing: 0px;
-    font-size: 1.2rem;
+    font-size: 18px;
     color: #FFFAFA;
 }
 @media (min-width: 550.98px) {
@@ -48,17 +50,28 @@
         width: 400px;
     }
 }
-.content {
-    transform: translate(0px, -50px);
-}
 .get-started-button{
     color: #004A4C;
     font-family: BrandonGrotesque;
-    font-size: 0.8rem;
+    font-size: 12px;
     letter-spacing: 1.95px;
+    width: 25vw;
 }
-@media (min-width: 992px) {
-    /* .firstSection{
-        background-size: contain;
-    } */
+@media (max-width: 600px) {
+    .get-started-button{
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 8rem;
+    justify-self: center;
+    }
+    .main-text{
+        margin-top: 10rem;
+    }
+    .sub-text{
+        margin-top: 3rem;;
+    }
+    .firstSection{
+        background-position: right;
+    }
 }

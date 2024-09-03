@@ -7,9 +7,11 @@
                     <h1 class="main-text ">Redefine your experience of clean.</h1>
                     <p class="sub-text text-for-size mt-5 mt-lg-0 mb-5 mb-lg-0">A quality engineered wipes dispenser that looks beautiful in your home, 
                         making better habits for your home and planet always within reach.</p>
-                    <div class="pb-4 mt-4 d-flex align-items-center"><img src="assets/images/21.png"><p class="ml-4">Beautiful design, fit for your home</p></div>
+                        <div class="pb-4 mt-4 d-flex align-items-center" *ngFor="let image of images">
+                            <img [src]="image.url"><p class="ml-4">{{image.text}}</p></div>
+                    <!-- <div class="pb-4 mt-4 d-flex align-items-center"><img src="assets/images/21.png"><p class="ml-4">Beautiful design, fit for your home</p></div>
                     <div class="pb-4 mt-3 mt-lg-0 d-flex align-items-center"><img src="assets/images/22.png"><p class="ml-4">Durable stainless steel exterior</p></div>
-                    <div class="pb-4 mt-3 mt-lg-0 d-flex align-items-center"><img src="assets/images/23.png"><p class="ml-4">Non-toxic, BPA free</p></div>
+                    <div class="pb-4 mt-3 mt-lg-0 d-flex align-items-center"><img src="assets/images/23.png"><p class="ml-4">Non-toxic, BPA free</p></div> -->
                     <a href="#" class="btn get-started-button px-5 py-3 mt-5 mt-lg-3">SHOP NOW</a>
                 </div>
             </div>

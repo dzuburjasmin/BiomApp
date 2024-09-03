@@ -1,6 +1,8 @@
 .secondSection{
-    background:  url('/assets/images/2sec2.png') no-repeat padding-box;
-    height: 100vh       ;
+    background-image: url('/assets/images/2sec2.png');
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    height: 100vh;
       background-position: center;
       background-position: top;
 
@@ -38,3 +40,8 @@ p{
     letter-spacing: 1.95px;
     color: white;
 }
+@media (max-width: 600px) {
+    .get-started-button{
+    width: 100%;
+    margin: auto;
+    }}

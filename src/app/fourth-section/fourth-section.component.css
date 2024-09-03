@@ -25,7 +25,9 @@
 .arrow-right {
     font-size: 1.5rem;
 }
-
+.arrow-right:hover {
+    transform: translateX(3px);
+}
 .right-part {
     position: relative;
 }

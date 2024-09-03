@@ -11,5 +11,12 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  closeNavbarOnClick() {
+    const navbarToggler = document.querySelector('.navbar-toggler') as HTMLElement;
+    const isExpanded = navbarToggler.getAttribute('aria-expanded') === 'true';
 
+    if (isExpanded) {
+      navbarToggler.click();  // This will collapse the navbar
+    }
+  }
 }

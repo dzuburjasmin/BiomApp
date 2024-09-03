@@ -10,10 +10,9 @@
             <h1 class="main-text ">Better for you, and the planet.</h1>
             <p class="sub-text">The experience of clean should feel amazing. In a time when we're constantly sanitizing, it can be damaging to our hands and skins. 
                 We decided to load our wipes with Aloe to take care of you, while you take care of your home.</p>
-                <div class="bullets ml-lg-5">
-            <div class="pb-4 mt-4 d-flex align-items-center"><img src="assets/images/biored.png"><p class="ml-4">100% biodegradable</p></div>
-            <div class="pb-4 d-flex align-items-center"><img src="assets/images/plasticfree.png"><p class="ml-4">Plastic-free</p></div>
-            <div class="pb-4 d-flex align-items-center"><img src="assets/images/plant.png"><p class="ml-4">100% plant-based</p></div>
+                <div class="bullets ml-lg-5 mb-5 mb-md-0">
+                    <div class="pb-4 mt-4 d-flex align-items-center" *ngFor="let image of images">
+                            <img [src]="image.url"><p class="ml-4">{{image.text}}</p></div>
         </div>
         </div>
     </div>

@@ -44,11 +44,12 @@
       display: none;
   }
   .footerlogosmall{
-    display: flex; /* ovo rijesiti jos, da se pojavi na drugom mjestu */
+    display: block;
+    width: 200px;
   }
 }
 .footerlogosmall{
-    display: none;
+    display: block;
 }
 .footer-underline {
     height: 1px;

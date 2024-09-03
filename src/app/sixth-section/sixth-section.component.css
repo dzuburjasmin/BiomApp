@@ -1,5 +1,7 @@
 .fullwidth-bg-section {
-    background:  url('/assets/images/water.jpg') no-repeat padding-box;
+    background-image: url('/assets/images/water.jpg');
+    background-repeat: no-repeat;
+    background-clip: padding-box;
     background-size: cover;
     background-position: center;
     width: 100%;
