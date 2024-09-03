@@ -30,6 +30,7 @@ images = [
     grabCursor: false,       
     freeMode: {
       enabled: true,
+      momentumRatio: 10
     },      
     scrollbar: {             
       draggable: true
