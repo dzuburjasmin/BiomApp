@@ -3,10 +3,49 @@
     background-repeat: no-repeat;
     background-clip: padding-box;
     height: 100vh;
-      background-position: center;
       background-position: top;
+      background-position:10%;
 
 }
+
+.vertical-text {
+    position: relative;
+    writing-mode: vertical-rl;
+    text-align: center;
+    font-family: BrandonGrotesque;
+    color:#F2F2F2;
+    overflow-x: auto;
+    max-height: 100vh;
+    top: 0%;
+    left: 8%;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: scroll;
+    height: 80vh;
+    width: 100%; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    transform: rotate(180deg);
+    pointer-events: all;
+
+}
+.vertical-text::-webkit-scrollbar {
+    display: none; 
+}
+@media (max-width: 992px){
+    .vertical-text{
+        display: none;
+    }
+}
+
+.scrollable-text{
+    font-family: BrandonGrotesque;
+    font-size: 11rem;
+    font-weight: bold;
+    white-space: nowrap; 
+    line-height: 1.2; 
+}
+
 .main-text{
     font-family: ChronicleDisplay;
     font-size: 2.5rem;
@@ -44,4 +83,8 @@ p{
     .get-started-button{
     width: 100%;
     margin: auto;
-    }}
+    }
+    .secondSection{
+        height: 80vh;
+    }
+}

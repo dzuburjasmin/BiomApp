@@ -19,11 +19,9 @@
 .box-with-arrow span {
     border-right: 2px solid #002D33; 
 }
-.box-with-arrow:hover{
-    background-color: #002D33;
-    color: white;
+.box-with-arrow:hover img{
+    transform: scale(110%);
 }
-
 
 .carousel-section {
     text-align: center;

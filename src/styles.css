@@ -1,8 +1,11 @@
  @import '~swiper/swiper-bundle.min.css';
  html {
     font-size: 16px !important;
+    
   }
-  
+  .html::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
 
   @media (max-width: 992px) {
     html {

@@ -26,13 +26,15 @@
     background-image: url('/assets/images/Kitchen_3.png');
     background-repeat: no-repeat;
     background-clip: padding-box;
-    height: 100vh;
+    height: 90vh;
       background-position: center;
       background-position: top;
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+      z-index: 5;
 }
 .main-text{
     font-family: ChronicleDisplay;
